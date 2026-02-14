@@ -1,4 +1,4 @@
-# Welcome to your Lovable project
+# Welcome to GenAI Hackathon Project on Feb 2025
 
 ## Project info
 
