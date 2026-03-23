@@ -1,0 +1,2 @@
+Placeholder for serialized metadata associated with the FAISS index.
+This file will be created and managed by the vector_store module.

@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: krishi-sahay-backend
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.app:app --host 0.0.0.0 --port $PORT
+    rootDir: backend
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: Gemini_api_key
+        sync: false
+      - key: OPENWEATHER_API_KEY
+        sync: false
+      - key: AGMARKNET_API_KEY
+        sync: false
+      - key: Plant_Health_API
+        sync: false
+      - key: Hugging_face_api
+        sync: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_ANON_KEY
+        sync: false
+      - key: PYTHON_VERSION
+        value: "3.11.0"

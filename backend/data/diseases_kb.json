@@ -1,0 +1,102 @@
+[
+  {
+    "disease_id": "late_blight",
+    "disease_name": "Late Blight",
+    "affected_crops": ["tomato", "potato"],
+    "symptoms": ["dark water-soaked lesions on leaves", "white mold on leaf undersides", "rapid wilting", "brown stem lesions", "fruit rot"],
+    "recommended_treatment": "Apply Metalaxyl + Mancozeb @ 2.5g/L immediately. Repeat every 7 days. Remove and destroy all infected plant parts.",
+    "prevention": "Use resistant varieties. Avoid overhead irrigation. Maintain plant spacing for air circulation. Remove crop debris after harvest.",
+    "severity": "high",
+    "confidence_threshold": 0.75
+  },
+  {
+    "disease_id": "early_blight",
+    "disease_name": "Early Blight",
+    "affected_crops": ["tomato", "potato", "brinjal"],
+    "symptoms": ["brown spots with concentric rings", "yellowing around lesions", "lower leaf drop", "dark stem cankers"],
+    "recommended_treatment": "Spray Mancozeb 75% WP @ 2.5g/L. Remove infected lower leaves. Repeat every 10 days. Apply Azoxystrobin for severe infections.",
+    "prevention": "Crop rotation every 2-3 years. Use certified disease-free seeds. Avoid wet foliage. Stake plants for air circulation.",
+    "severity": "medium",
+    "confidence_threshold": 0.70
+  },
+  {
+    "disease_id": "leaf_rust",
+    "disease_name": "Leaf Rust",
+    "affected_crops": ["wheat", "barley", "oats"],
+    "symptoms": ["orange-brown circular pustules on leaves", "yellow halos around pustules", "powdery rust spores", "premature leaf death"],
+    "recommended_treatment": "Apply Propiconazole 25% EC @ 1ml/L or Tebuconazole 25.9% EC @ 1ml/L. Spray 2-3 times at 10-day intervals.",
+    "prevention": "Plant resistant varieties like HD-2967, WH-1105. Sow on time. Remove volunteer wheat plants. Avoid overhead irrigation.",
+    "severity": "high",
+    "confidence_threshold": 0.80
+  },
+  {
+    "disease_id": "rice_blast",
+    "disease_name": "Rice Blast",
+    "affected_crops": ["rice"],
+    "symptoms": ["diamond-shaped lesions with gray centers", "brown or reddish-brown borders", "neck rot at panicle base", "whiteheads"],
+    "recommended_treatment": "Apply Tricyclazole 75% WP @ 0.6g/L or Azoxystrobin 23% SC @ 1ml/L at max tillering. Repeat after 10 days if needed.",
+    "prevention": "Use certified blast-resistant varieties. Avoid excess nitrogen fertilizer. Maintain proper plant spacing.",
+    "severity": "high",
+    "confidence_threshold": 0.80
+  },
+  {
+    "disease_id": "powdery_mildew",
+    "disease_name": "Powdery Mildew",
+    "affected_crops": ["wheat", "cucumber", "grape", "pea", "mango"],
+    "symptoms": ["white powdery coating on leaf surface", "yellowing beneath powder", "stunted growth", "premature defoliation"],
+    "recommended_treatment": "Apply Sulphur 80% WP @ 2.5g/L or Hexaconazole 5% EC @ 1ml/L. Repeat every 10 days. Karathane (Dinocap) @ 1ml/L also effective.",
+    "prevention": "Avoid dense planting. Remove and burn infected debris. Use resistant varieties where available.",
+    "severity": "medium",
+    "confidence_threshold": 0.72
+  },
+  {
+    "disease_id": "bacterial_leaf_blight",
+    "disease_name": "Bacterial Leaf Blight",
+    "affected_crops": ["rice"],
+    "symptoms": ["water-soaked leaf margins", "yellowing from leaf tip downward", "milky or yellow ooze in morning", "wilting in severe cases"],
+    "recommended_treatment": "Spray Copper Oxychloride 50% WP @ 3g/L. Drain and dry field. Avoid fertilizer during outbreak. Streptocycline 100ppm spray.",
+    "prevention": "Use certified pathogen-free seeds. Treat seeds with Streptocycline 0.5g/L. Avoid high nitrogen. Maintain proper drainage.",
+    "severity": "high",
+    "confidence_threshold": 0.75
+  },
+  {
+    "disease_id": "cotton_leaf_curl",
+    "disease_name": "Cotton Leaf Curl Virus",
+    "affected_crops": ["cotton"],
+    "symptoms": ["upward or downward leaf curling", "vein thickening and darkening", "enations on leaf undersides", "stunted plant growth"],
+    "recommended_treatment": "No direct cure. Remove and destroy infected plants immediately. Control whitefly vector: Imidacloprid 17.8 SL @ 0.5ml/L or Acetamiprid @ 0.2g/L.",
+    "prevention": "Use CLCuV-resistant Bt cotton varieties. Monitor for whitefly weekly from emergence. Yellow sticky traps @ 5/acre.",
+    "severity": "high",
+    "confidence_threshold": 0.78
+  },
+  {
+    "disease_id": "yellow_mosaic",
+    "disease_name": "Yellow Mosaic Virus",
+    "affected_crops": ["soybean", "mungbean", "blackgram", "bitter gourd"],
+    "symptoms": ["yellow-green mosaic pattern on leaves", "leaf distortion", "stunted growth", "reduced pod set"],
+    "recommended_treatment": "No direct cure. Uproot and destroy infected plants. Control whitefly: Thiamethoxam 25 WG @ 0.3g/L. Avoid planting near infected fields.",
+    "prevention": "Use virus-free certified seeds. Spray Imidacloprid as prophylactic. Avoid late sowing. Remove weed hosts.",
+    "severity": "high",
+    "confidence_threshold": 0.76
+  },
+  {
+    "disease_id": "downy_mildew",
+    "disease_name": "Downy Mildew",
+    "affected_crops": ["pearl millet", "maize", "sorghum", "cucumber"],
+    "symptoms": ["yellow angular spots on upper leaf", "grayish-purple downy growth on undersides", "green ear in pearl millet", "stunted plants"],
+    "recommended_treatment": "Spray Metalaxyl 8% + Mancozeb 64% WP @ 2.5g/L. Seed treatment with Metalaxyl 35 WS @ 6g/kg seed.",
+    "prevention": "Use resistant varieties. Seed treatment before sowing. Avoid waterlogging. Remove infected plants.",
+    "severity": "medium",
+    "confidence_threshold": 0.70
+  },
+  {
+    "disease_id": "healthy",
+    "disease_name": "Healthy Plant",
+    "affected_crops": [],
+    "symptoms": ["uniform green color", "no lesions or spots", "normal growth pattern", "firm stems"],
+    "recommended_treatment": "No treatment needed. Continue current good agricultural practices and regular crop monitoring.",
+    "prevention": "Maintain balanced NPK fertilization, proper irrigation schedule, and regular scouting every 7 days.",
+    "severity": "none",
+    "confidence_threshold": 0.60
+  }
+]

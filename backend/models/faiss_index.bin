@@ -1,0 +1,1 @@
+Placeholder for FAISS index binary. This file will be overwritten by the vector_store module when the index is built.
